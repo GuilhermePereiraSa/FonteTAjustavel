@@ -14,8 +14,8 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | 5             | Resistores          | 4                    | [Explicação dos Resistores](link_para_explicação)              |
 | 6             | LED Vermelho        | 5mm                  | [Explicação do LED Vermelho](link_para_explicação)             |
 | 7             | Transistor NPN      | -                    | [Explicação do Transistor NPN](link_para_explicação)           |
-| 8             | Fusível             | -                    | [Explicação do Fusível](link_para_explicação)                  |
-| 9             | Varistor            | -                    | [Explicação do Varistor](link_para_explicação)                 |
+| 8             | Fusível             | -                    | [Explicação do Fusível](#explicacao_fusivel)                   |
+| 9             | Varistor            | -                    | [Explicação do Varistor](#explicacao_varistor)                 |
 
 ## Notas Adicionais
 
@@ -23,11 +23,16 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 - **Ideia de Fusível e Varistor**: Oferece segurança contra correntes altas e proteção contra incêndios.
 
+---
 
 ## Explicações do uso dos componentes:
 
-## Fusível: 
- - O fusível é um dispositivo de segurança projetado para proteger um circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro o fusível se rompe, interrompendo assim, o fluxo de corrente.
+<a name="explicacao_fusivel"></a>
 
-## Varistor:
-  - O varistor é um dispositivo também de segurança com intuito principal de proteger "outros dispositivos" conectados ao circuito contra picos de tensão, pois ele possui uma resistência elétrica variável dependente da tensão aplicada. Quando ocorre, por exemplo, um aumento repentino na tensão, o varistor conduz a corrente elétrica excessiva para o solo.
+### Fusível
+- O fusível é um dispositivo de segurança projetado para proteger um circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro o fusível se rompe, interrompendo assim, o fluxo de corrente.
+
+<a name="explicacao_varistor"></a>
+
+### Varistor
+- O varistor é um dispositivo também de segurança com intuito principal de proteger "outros dispositivos" conectados ao circuito contra picos de tensão, pois ele possui uma resistência elétrica variável dependente da tensão aplicada. Quando ocorre, por exemplo, um aumento repentino na tensão, o varistor conduz a corrente elétrica excessiva para o solo.
