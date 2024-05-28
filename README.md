@@ -1,7 +1,7 @@
 # Fonte Ajustável
 
 ## Descrição
-Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA.
+Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA. É burro friendly, então seja bem-vindo.
 
 ## Componentes Utilizados
 
@@ -34,7 +34,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 <a name="explicacao_fonte"></a>
 
-- A fonte aqui faz simulação de tomada, que ao passar pelo transformador, como tem em alguns postes de luz (só que maior), "reduz" a tensão máxima antes de passar por ele, que é de 180V, para uma nova, mais aceitável e que usamos no resto do circuito.
+- A fonte aqui faz simulação de tomada, direto de Itaipu, que ao passar pelo transformador, como tem em alguns postes de luz (só que maior), "reduz" a tensão máxima antes de passar por ele, que é de 180V, para uma nova, mais aceitável e que usamos no resto do circuito.
 
 #### Transformador 
 
@@ -85,7 +85,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 #### Transistor NPN
 <a name="explicacao_transistor_npn"></a>
 
-- O transistor NPN aqui serve para a resolução do resistor do Zenner, já que queremos que ao final tenhamos 100mA e conservemos a voltagem "original", porém com 12V no final, sem ter o problema do Zenner-12 se alimentar um pouco desses 12V e não ter a tensão mínima requerida no final, enquanto mantém também esses 100mA 
+- O transistor NPN aqui serve para a resolução do resistor do Zenner, já que queremos que ao final tenhamos 100mA e conservemos a voltagem "original", porém com 12V no final, sem ter o problema do Zenner-12 se alimentar um pouco desses 12V e não ter a tensão mínima requerida no final, enquanto mantém também esses 100mA. Ele está ali então para regular a corrente, como um duto desta.
 
 #### Fusível
 
@@ -102,5 +102,10 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 ### Imagem do Circuito no Falstad
 
-
 <img src="Falstadscreenshot.png">
+
+
+
+#### Imagens de Cálculos:
+<img src="calculo1.png">
+<img src="calculo2.png">
