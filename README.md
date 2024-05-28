@@ -7,15 +7,15 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 | Nº Componente | Componente          | Especificação        | Link para explicação detalhada                                    |
 |---------------|---------------------|----------------------|-----------------------------------------------------------------|
-| 1             | Diodo 1N4004/1N4001 | -                    | [Explicação do Diodo 1N4004/1N4001](link_para_explicação)    |
+| 5             | Diodo 1N4004/1N4001 | -                    | [Explicação do Diodo 1N4004/1N4001](link_para_explicação)    |
 | 2             | Capacitor           | 470uF a 680uF         | [Explicação do Capacitor](link_para_explicação)                |
-| 3             | Diodo Zener -12     | 12,7V/13V             | [Explicação do Diodo Zener](link_para_explicação)              |
-| 4             | Potenciômetro       | 5k - 10k              | [Explicação do Potenciômetro](link_para_explicação)            |
-| 5             | Resistores          | 4                    | [Explicação dos Resistores](link_para_explicação)              |
-| 6             | LED Vermelho        | 5mm                  | [Explicação do LED Vermelho](link_para_explicação)             |
-| 7             | Transistor NPN      | -                    | [Explicação do Transistor NPN](link_para_explicação)           |
-| 8             | Fusível             | -                    | [Explicação do Fusível](#explicacao_fusivel)                   |
-| 9             | Varistor            | -                    | [Explicação do Varistor](#explicacao_varistor)                 |
+| 2             | Diodo Zener -12     | 12,7V/13V             | [Explicação do Diodo Zener](link_para_explicação)              |
+| 1             | Potenciômetro       | 5k - 10k              | [Explicação do Potenciômetro](link_para_explicação)            |
+| 4             | Resistores          | 4                    | [Explicação dos Resistores](link_para_explicação)              |
+| 3             | LED Vermelho        | 5mm                  | [Explicação do LED Vermelho](link_para_explicação)             |
+| 2             | Transistor NPN      | -                    | [Explicação do Transistor NPN](link_para_explicação)           |
+| 1             | Fusível             | -                    | [Explicação do Fusível](#explicacao_fusivel)                   |
+| 1             | Varistor            | -                    | [Explicação do Varistor](#explicacao_varistor)                 |
 
 ## Notas Adicionais
 
