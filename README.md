@@ -27,7 +27,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 ## Explicações do uso dos componentes:
 
-### Diodo
+##### Diodo
 
 <a name="explicacao_diodo"></a>
 
