@@ -62,8 +62,8 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <a name="explicacao_resistores"></a>
 - O primeiro será para o LED, fazendo com que não passe uma potência tão grande;
   - O segundo será para o Diodo Zenner, já que para este, a tensão não deve ser tão alta, nem tão baixa também por causa da corrente mínima que o Zenner-12 requer;
-    - O terceiro será para o final, fazendo com que, passado pelo Coletor do Transistor NPN, a tensão "original" com 100mA e 24V passe por este resistor de 120, chegando       no final com 12V e 100mA;
-    - E o quarto, e último, seria para limitarmos a queda de tensão no potenciômetro, indo de 12V para o mínimo de 3V, ao ínves de 3nV.
+       - O terceiro será para o final, fazendo com que, passado pelo Coletor do Transistor NPN, a tensão "original" com 100mA e 24V passe por este resistor de 120, chegando       no final com 12V e 100mA;
+          - E o quarto, e último, seria para limitarmos a queda de tensão no potenciômetro, indo de 12V para o mínimo de 3V, ao ínves de 3nV.
 
 #### LED Vermelho
 
