@@ -55,6 +55,10 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 <a name="explicacao_resistores"></a>
 
+#### Transistor NPN
+
+- O transistor NPN aqui serve para a resolução do 
+
 - Os resistores são usados para limitar a corrente e dividir a tensão em diferentes partes do circuito, garantindo o funcionamento correto dos componentes.
 
 #### LED Vermelho
@@ -62,6 +66,8 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <a name="explicacao_led"></a>
 
 - Os LEDs vermelhos são usados para indicar visualmente o funcionamento do circuito. Eles acendem quando a fonte de alimentação está ligada e funcionando corretamente.
+
+<a name=""explicacao_trans"></a>
 
 #### Fusível
 
