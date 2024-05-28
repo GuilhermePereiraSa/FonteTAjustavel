@@ -2,7 +2,7 @@
 1º Trabalho de Eletrônica Digital: Projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA
 
 # Componentes usados:
-1. Diodo
+1. Diodo 1N4004/1N4001
 2. Capacitor - provável de 470uF, à 680uF, por padrão de mercado/valor comercial
 3. Diodo Zener - 12,7V/13V - Zenner-12 no falstad
 4. Potenciômetro 5k
