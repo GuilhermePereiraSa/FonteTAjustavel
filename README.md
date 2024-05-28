@@ -8,8 +8,9 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | Nº Componente | Componente          | Especificação        | Link para explicação detalhada                                    |
 |---------------|---------------------|----------------------|-----------------------------------------------------------------|
 |       1        |      Fonte         | Corrente Alternada 2 Terminais|  [Explicação da Fonte CA](#explicacao_fonte)           |
+|       1        |      Transformador | 6.979                  |                [Explicação do Transformador](#explicacao_trans) |
 | 5             | Diodo               | 1N4004/1N4001        | [Explicação do Diodo](#explicacao_diodo)                        |
-| 2             | Capacitor           | 560uF a 680uF         | [Explicação do Capacitor](#explicacao_capacitor)                |
+| 2             | Capacitor           | 560uF a 680uF com 24.2V    | [Explicação do Capacitor](#explicacao_capacitor)                |
 | 2             | Diodo Zener -12     | 12,7V/13V             | [Explicação do Diodo Zener](#explicacao_diodo_zener)            |
 | 1             | Potenciômetro       |     10k              | [Explicação do Potenciômetro](#explicacao_potenciometro)        |
 | 4             | Resistores          | De 8.2KΩ à 120Ω                    | [Explicação dos Resistores](#explicacao_resistores)              |
@@ -18,7 +19,9 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | 1             | Fusível             | loja                    | [Explicação do Fusível](#explicacao_fusivel)                    |
 | 1             | Varistor            | loja                    | [Explicação do Varistor](#explicacao_varistor)                  |
 
-   |        Resistores |    Especificação |
+
+### Resistores
+   |        Resistores Ω |    Especificação |
    | ------------------- | ------------------- |
    |           8.2KΩ   |          LED     |
    |        2.7KΩ      |    Diodo Zenner  |
@@ -26,6 +29,12 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 
 ## Explicações do uso dos componentes:
+
+#### Transformador 
+
+<a name="explicacao_trans"></a>
+- O transformador aqui faria com que a corrente alternada advinda da fonte alternada, fazendo com que com a tensão máxima de 180V, "vinda da tomada", se "transforme" pela relação de espiras, na diferença de potencial que o nosso transformador na vida real tem, para o resto do circuito. 
+
 
 #### Diodo
 
