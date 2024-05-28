@@ -1,7 +1,7 @@
 # Fonte Ajustável
 
 ## Descrição
-Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA. É burro friendly, então seja bem-vindo.
+Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA. É burro friendly,então seja bem-vindo 🤓.
 
 ## Componentes Utilizados
 
@@ -109,3 +109,6 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 #### Imagens de Cálculos:
 <img src="calculo1.png">
 <img src="calculo2.png">
+
+#### Transformadores 
+<img src="transformadores.png">
