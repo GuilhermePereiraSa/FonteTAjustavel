@@ -106,9 +106,9 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 
 
-#### Imagens de Cálculos:
+### Imagens de Cálculos:
 <img src="calculo1.png">
 <img src="calculo2.png">
 
-#### Transformadores 
+### Transformadores 
 <img src="transformadores.png">
