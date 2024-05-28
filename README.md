@@ -88,5 +88,4 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 #### Imagem do Circuito no Falstad
 
 
-<img src="![image](https://github.com/GuilhermePereiraSa/FonteTAjustavel/assets/112729015/4878c391-8830-45c8-9080-1022e6d6d140)
-">
+<img src="Falstadscreenshot.png">
