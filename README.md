@@ -30,72 +30,72 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 ## Explicações do uso dos componentes:
 
-#### Fonte 
-
 <a name="explicacao_fonte"></a>
+
+#### Fonte 
 
 - A fonte aqui faz simulação de tomada, direto de Itaipu, que ao passar pelo transformador, como tem em alguns postes de luz (só que maior), "reduz" a tensão máxima antes de passar por ele, que é de 180V, para uma nova, mais aceitável e que usamos no resto do circuito.
 
+<a name="explicacao_trans"></a>
+
 #### Transformador 
 
-<a name="explicacao_trans"></a>
-- O transformador aqui faria com que a corrente alternada advinda da fonte alternada, fazendo com que com a tensão máxima de 180V, "vinda da tomada", se "transforme" pela relação de espiras, na diferença de potencial que o nosso transformador na vida real tem, para o resto do circuito. 
-
-
-#### Diodo
+- O transformador aqui faria com que a corrente alternada advinda da fonte alternada, fazendo com que com a tensão máxima de 180V, "vinda da tomada", se "transforme" pela relação de espiras, na diferença de potencial que o nosso transformador na vida real tem, para o resto do circuito.
 
 <a name="explicacao_diodo"></a>
 
-- O diodo é um dispositivo que aqui será usado em conjunto, atuando 4 de uma vez na mesma área, porém, afetando todo o circuito. Esse conjunto é chamado de ponte de diodo, quando, claro, colocado em um circuito daquela forma. No circuito em si, é configurado como uma ponte retificadora, que converte corrente alternada em corrente contínua.
+#### Diodo
 
-#### Capacitor
+- O diodo é um dispositivo que aqui será usado em conjunto, atuando 4 de uma vez na mesma área, porém, afetando todo o circuito. Esse conjunto é chamado de ponte de diodo, quando, claro, colocado em um circuito daquela forma. No circuito em si, é configurado como uma ponte retificadora, que converte corrente alternada em corrente contínua.
 
 <a name="explicacao_capacitor"></a>
 
-- O capacitor é utilizado para armazenar cargas elétricas e fornecer energia ao circuito quando necessário. No caso da fonte ajustável, ele ajuda a suavizar as flutuações de tensão e a estabilizar a saída.
+#### Capacitor
 
-#### Diodo Zener
+- O capacitor é utilizado para armazenar cargas elétricas e fornecer energia ao circuito quando necessário. No caso da fonte ajustável, ele ajuda a suavizar as flutuações de tensão e a estabilizar a saída.
 
 <a name="explicacao_diodo_zener"></a>
 
-- O diodo Zener é usado para regular a tensão no circuito. Ele permite que uma tensão específica seja mantida através dele, protegendo os componentes do circuito contra picos de tensão.
+#### Diodo Zener
 
-#### Potenciômetro
+- O diodo Zener é usado para regular a tensão no circuito. Ele permite que uma tensão específica seja mantida através dele, protegendo os componentes do circuito contra picos de tensão.
 
 <a name="explicacao_potenciometro"></a>
 
+#### Potenciômetro
+
 - O potenciômetro é um resistor variável que permite ajustar a tensão de saída da fonte conforme necessário. Ele é essencial para garantir que a fonte seja ajustável entre 3V a 12V.
 
-#### Resistores
-
 <a name="explicacao_resistores"></a>
+
+#### Resistores
 
 - O primeiro será para o LED, fazendo com que não passe uma potência tão grande;
    + O segundo será para o Diodo Zenner, já que para este, a tensão não deve ser tão alta, nem tão baixa também por causa da corrente mínima que o Zenner-12 requer;
        * O terceiro será para o final, fazendo com que, passado pelo Coletor do Transistor NPN, a tensão "original" com 100mA e 24V passe por este resistor de 120, chegando no final com 12V e 100mA;
           * E o quarto, e último, seria para limitarmos a queda de tensão no potenciômetro, indo de 12V para o mínimo de 3V, ao invés de 3mV.
 
+<a name="explicacao_led"></a>
 
 #### LED Vermelho
 
-<a name="explicacao_led"></a>
-
 - Os LEDs vermelhos são usados para indicar visualmente o funcionamento do circuito. Eles acendem quando a fonte de alimentação está ligada e funcionando corretamente.
 
-#### Transistor NPN
 <a name="explicacao_transistor_npn"></a>
+
+#### Transistor NPN
 
 - O transistor NPN aqui serve para a resolução do resistor do Zenner, já que queremos que ao final tenhamos 100mA e conservemos a voltagem "original", porém com 12V no final, sem ter o problema do Zenner-12 se alimentar um pouco desses 12V e não ter a tensão mínima requerida no final, enquanto mantém também esses 100mA. Ele está ali então para regular a corrente, como um duto desta.
 
-#### Fusível
-
 <a name="explicacao_fusivel"></a>
+
+#### Fusível
 
 - O fusível é um dispositivo de segurança projetado para proteger o circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro, o fusível se rompe, interrompendo assim o fluxo de corrente.
 
-#### Varistor
-
 <a name="explicacao_varistor"></a>
+
+#### Varistor
 
 - O varistor é um dispositivo de segurança projetado para proteger outros componentes do circuito contra picos de tensão. Ele possui uma resistência elétrica variável que diminui quando a tensão aplicada aumenta, permitindo que ele desvie a corrente excessiva para o solo e proteja o circuito contra danos causados por sobretensão.
 
