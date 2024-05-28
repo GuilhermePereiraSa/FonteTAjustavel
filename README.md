@@ -27,49 +27,49 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 ## Explicações do uso dos componentes:
 
-##### Diodo
+#### Diodo
 
 <a name="explicacao_diodo"></a>
 
 - O diodo é um dispositivo que aqui será usado em conjunto, atuando 4 de uma vez na mesma área, porém, afetando todo o circuito. Esse conjunto é chamado de ponte de diodo, quando, claro, colocado em um circuito daquela forma. No circuito em si, é configurado como uma ponte retificadora, que converte corrente alternada em corrente contínua.
 
-### Capacitor
+#### Capacitor
 
 <a name="explicacao_capacitor"></a>
 
 - O capacitor é utilizado para armazenar cargas elétricas e fornecer energia ao circuito quando necessário. No caso da fonte ajustável, ele ajuda a suavizar as flutuações de tensão e a estabilizar a saída.
 
-### Diodo Zener
+#### Diodo Zener
 
 <a name="explicacao_diodo_zener"></a>
 
 - O diodo Zener é usado para regular a tensão no circuito. Ele permite que uma tensão específica seja mantida através dele, protegendo os componentes do circuito contra picos de tensão.
 
-### Potenciômetro
+#### Potenciômetro
 
 <a name="explicacao_potenciometro"></a>
 
 - O potenciômetro é um resistor variável que permite ajustar a tensão de saída da fonte conforme necessário. Ele é essencial para garantir que a fonte seja ajustável entre 3V a 12V.
 
-### Resistores
+#### Resistores
 
 <a name="explicacao_resistores"></a>
 
 - Os resistores são usados para limitar a corrente e dividir a tensão em diferentes partes do circuito, garantindo o funcionamento correto dos componentes.
 
-### LED Vermelho
+#### LED Vermelho
 
 <a name="explicacao_led"></a>
 
 - Os LEDs vermelhos são usados para indicar visualmente o funcionamento do circuito. Eles acendem quando a fonte de alimentação está ligada e funcionando corretamente.
 
-### Fusível
+#### Fusível
 
 <a name="explicacao_fusivel"></a>
 
 - O fusível é um dispositivo de segurança projetado para proteger o circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro, o fusível se rompe, interrompendo assim o fluxo de corrente.
 
-### Varistor
+#### Varistor
 
 <a name="explicacao_varistor"></a>
 
