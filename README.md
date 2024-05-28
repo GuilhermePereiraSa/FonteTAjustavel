@@ -2,10 +2,10 @@
 1º Trabalho de Eletrônica Digital: Projeto de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA
 
 # Componentes usados:
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| First Header  | Second Header |  Third Header  |
+| ------------- | ------------- | -------------  |
+| Content Cell  | Content Cell  |                |
+| Content Cell  | Content Cell  |                |
 
 
 1. Diodo 1N4004/1N4001
