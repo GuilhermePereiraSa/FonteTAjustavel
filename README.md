@@ -30,6 +30,12 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 ## Explicações do uso dos componentes:
 
+#### Fonte 
+
+<a name="explicacao_fonte"></a>
+
+- A fonte aqui faz simulação de tomada, que ao passar pelo transformador, como tem em alguns postes de luz (só que maior), "reduz" a tensão máxima antes de passar por ele, que é de 180V, para uma nova, mais aceitável e que usamos no resto do circuito.
+
 #### Transformador 
 
 <a name="explicacao_trans"></a>
