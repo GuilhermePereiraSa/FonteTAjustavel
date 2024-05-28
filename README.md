@@ -22,3 +22,12 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 - **Transistor NPN**: Resolve o problema do Diodo Zener, ainda passando a tensão necessária para o Diodo iniciar e deixar a carga passar.
 
 - **Ideia de Fusível e Varistor**: Oferece segurança contra correntes altas e proteção contra incêndios.
+
+
+## Explicações do uso dos componentes:
+
+## Fusível: 
+ - O fusível é um dispositivo de segurança projetado para proteger um circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro o fusível se rompe, interrompendo assim, o fluxo de corrente.
+
+## Varistor:
+  - O varistor é um dispositivo também de segurança com intuito principal de proteger "outros dispositivos" conectados ao circuito contra picos de tensão, pois ele possui uma resistência elétrica variável dependente da tensão aplicada. Quando ocorre, por exemplo, um aumento repentino na tensão, o varistor conduz a corrente elétrica excessiva para o solo.
