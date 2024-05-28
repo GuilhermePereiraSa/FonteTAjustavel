@@ -85,7 +85,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 - O varistor é um dispositivo de segurança projetado para proteger outros componentes do circuito contra picos de tensão. Ele possui uma resistência elétrica variável que diminui quando a tensão aplicada aumenta, permitindo que ele desvie a corrente excessiva para o solo e proteja o circuito contra danos causados por sobretensão.
 
 
-#### Imagem do Circuito no Falstad
+### Imagem do Circuito no Falstad
 
 
 <img src="Falstadscreenshot.png">
