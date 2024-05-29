@@ -40,7 +40,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <a name="explicacao_trans"></a>
 
 #### Transformador 
-<img src="transformador.png" width="80px">
+<img src="transformador.jpg" width="80px">
 
 - O transformador aqui faria com que a corrente alternada advinda da fonte alternada, fazendo com que com a tensão máxima de 180V, "vinda da tomada", se "transforme" pela relação de espiras, na diferença de potencial que o nosso transformador na vida real tem, para o resto do circuito.
 
