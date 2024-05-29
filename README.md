@@ -33,36 +33,42 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <a name="explicacao_fonte"></a>
 
 #### Fonte 
+<img src="battery9V.png" width="80px" alt="Itaipu2.0">
 
 - A fonte aqui faz simulação de tomada, direto de Itaipu, que ao passar pelo transformador, como tem em alguns postes de luz (só que maior), "reduz" a tensão máxima antes de passar por ele, que é de 180V, para uma nova, mais aceitável e que usamos no resto do circuito.
 
 <a name="explicacao_trans"></a>
 
 #### Transformador 
+<img src="transformador.png" width="80px">
 
 - O transformador aqui faria com que a corrente alternada advinda da fonte alternada, fazendo com que com a tensão máxima de 180V, "vinda da tomada", se "transforme" pela relação de espiras, na diferença de potencial que o nosso transformador na vida real tem, para o resto do circuito.
 
 <a name="explicacao_diodo"></a>
 
 #### Diodo
+<img src="diode.png" width="80px">
 
 - O diodo é um dispositivo que aqui será usado em conjunto, atuando 4 de uma vez na mesma área, porém, afetando todo o circuito. Esse conjunto é chamado de ponte de diodo, quando, claro, colocado em um circuito daquela forma. No circuito em si, é configurado como uma ponte retificadora, que converte corrente alternada em corrente contínua.
 
 <a name="explicacao_capacitor"></a>
 
 #### Capacitor
+<img src="capacitorPolarized.png" width="80px">
 
 - O capacitor é utilizado para armazenar cargas elétricas e fornecer energia ao circuito quando necessário. No caso da fonte ajustável, ele ajuda a suavizar as flutuações de tensão e a estabilizar a saída.
 
 <a name="explicacao_diodo_zener"></a>
 
 #### Diodo Zener
+<img src="diode.png" width="80px" alt="Diodo com Z em simulação">
 
 - O diodo Zener é usado para regular a tensão no circuito. Ele permite que uma tensão específica seja mantida através dele, protegendo os componentes do circuito contra picos de tensão.
 
 <a name="explicacao_potenciometro"></a>
 
 #### Potenciômetro
+<img src="potenciometer.png" width="80px">
 
 - O potenciômetro é um resistor variável que permite ajustar a tensão de saída da fonte conforme necessário. Ele é essencial para garantir que a fonte seja ajustável entre 3V a 12V.
 
@@ -78,24 +84,28 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <a name="explicacao_led"></a>
 
 #### LED Vermelho
+<img src="led.png" width="80px">
 
 - Os LEDs vermelhos são usados para indicar visualmente o funcionamento do circuito. Eles acendem quando a fonte de alimentação está ligada e funcionando corretamente.
 
 <a name="explicacao_transistor_npn"></a>
 
 #### Transistor NPN
+<img src="transistorNPN.png" width="80px">
 
 - O transistor NPN aqui serve para a resolução do resistor do Zenner, já que queremos que ao final tenhamos 100mA e conservemos a voltagem "original", porém com 12V no final, sem ter o problema do Zenner-12 se alimentar um pouco desses 12V e não ter a tensão mínima requerida no final, enquanto mantém também esses 100mA. Ele está ali então para regular a corrente, como um duto desta.
 
 <a name="explicacao_fusivel"></a>
 
 #### Fusível
+<img src="fusivel.png" width="80px">
 
 - O fusível é um dispositivo de segurança projetado para proteger o circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro, o fusível se rompe, interrompendo assim o fluxo de corrente.
 
 <a name="explicacao_varistor"></a>
 
 #### Varistor
+<img src="varistor.png" width="80px">
 
 - O varistor é um dispositivo de segurança projetado para proteger outros componentes do circuito contra picos de tensão. Ele possui uma resistência elétrica variável que diminui quando a tensão aplicada aumenta, permitindo que ele desvie a corrente excessiva para o solo e proteja o circuito contra danos causados por sobretensão.
 
