@@ -68,13 +68,14 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <a name="explicacao_potenciometro"></a>
 
 #### Potenciômetro
-<img src="potenciometer.png" width="80px">
+<img src="potentiometer.png" width="80px">
 
 - O potenciômetro é um resistor variável que permite ajustar a tensão de saída da fonte conforme necessário. Ele é essencial para garantir que a fonte seja ajustável entre 3V a 12V.
 
 <a name="explicacao_resistores"></a>
 
 #### Resistores
+<img src="resistor.png" width="80px">
 
 - O primeiro será para o LED, fazendo com que não passe uma potência tão grande;
    + O segundo será para o Diodo Zenner, já que para este, a tensão não deve ser tão alta, nem tão baixa também por causa da corrente mínima que o Zenner-12 requer;
@@ -98,14 +99,14 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <a name="explicacao_fusivel"></a>
 
 #### Fusível
-<img src="fusivel.png" width="80px">
+<img src="fusivel.jpg" width="80px">
 
 - O fusível é um dispositivo de segurança projetado para proteger o circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro, o fusível se rompe, interrompendo assim o fluxo de corrente.
 
 <a name="explicacao_varistor"></a>
 
 #### Varistor
-<img src="varistor.png" width="80px">
+<img src="varistor.jpg" width="80px">
 
 - O varistor é um dispositivo de segurança projetado para proteger outros componentes do circuito contra picos de tensão. Ele possui uma resistência elétrica variável que diminui quando a tensão aplicada aumenta, permitindo que ele desvie a corrente excessiva para o solo e proteja o circuito contra danos causados por sobretensão.
 
