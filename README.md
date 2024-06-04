@@ -9,16 +9,15 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | Nº Componente | Componente      | Especificação                  | Link para explicação detalhada                             |
 | ------------- | --------------- | ------------------------------ | ---------------------------------------------------------- |
 | 1             | Fonte           | Corrente Alternada 2 Terminais | [Explicação da Fonte CA](#explicacao_fonte)                |
-| 1             | Transformador   | 6.979                          | [Explicação do Transformador](#explicacao_trans)           |
-| 5             | Diodo           | 1N4004/1N4001                  | [Explicação do Diodo](#explicacao_diodo)                   |
-| 2             | Capacitor       | 560uF a 680uF com 24.2V        | [Explicação do Capacitor](#explicacao_capacitor)           |
-| 2             | Diodo Zener -12 | 12,7V/13V                      | [Explicação do Diodo Zener](#explicacao_diodo_zener)       |
+| 1             | Transformador   | Razão: 6.979                   | [Explicação do Transformador](#explicacao_trans)           |
+| 4             | Diodo           | 1N4004/1N4001                  | [Explicação do Diodo](#explicacao_diodo)                   |
+| 1             | Capacitor       | 680uF com ≈ 24.2V              | [Explicação do Capacitor](#explicacao_capacitor)           |
+| 1             | Diodo Zener -12 | 12,7V/13V                      | [Explicação do Diodo Zener](#explicacao_diodo_zener)       |
 | 1             | Potenciômetro   | 10k                            | [Explicação do Potenciômetro](#explicacao_potenciometro)   |
 | 4             | Resistores      | De 8.2KΩ à 120Ω                | [Explicação dos Resistores](#explicacao_resistores)        |
-| 3             | LED Vermelho    | 5mm                            | [Explicação do LED Vermelho](#explicacao_led)              |
-| 2             | Transistor      | NPN                            | [Explicação do Transistor NPN](#explicacao_transistor_npn) |
-| 1             | Fusível         | loja                           | [Explicação do Fusível](#explicacao_fusivel)               |
-| 1             | Varistor        | loja                           | [Explicação do Varistor](#explicacao_varistor)             |
+| 1             | LED Vermelho    | 5mm                            | [Explicação do LED Vermelho](#explicacao_led)              |
+| 1             | Transistor      | NPN - bc337 uso geral - até 0,8A| [Explicação do Transistor NPN](#explicacao_transistor_npn) |
+
 
 ### Resistores
 
@@ -104,22 +103,6 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <img src="img/transistorNPN.png" width="80px">
 
 - O transistor NPN aqui serve para a resolução do resistor do Zenner, já que queremos que ao final tenhamos 100mA e conservemos a voltagem "original", porém com 12V no final, sem ter o problema do Zenner-12 se alimentar um pouco desses 12V e não ter a tensão mínima requerida no final, enquanto mantém também esses 100mA. Ele está ali então para regular a corrente, como um duto desta.
-
-<a name="explicacao_fusivel"></a>
-
-#### Fusível
-
-<img src="img/fusivel.jpg" width="80px">
-
-- O fusível é um dispositivo de segurança projetado para proteger o circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro, o fusível se rompe, interrompendo assim o fluxo de corrente.
-
-<a name="explicacao_varistor"></a>
-
-#### Varistor
-
-<img src="img/varistor.jpg" width="80px">
-
-- O varistor é um dispositivo de segurança projetado para proteger outros componentes do circuito contra picos de tensão. Ele possui uma resistência elétrica variável que diminui quando a tensão aplicada aumenta, permitindo que ele desvie a corrente excessiva para o solo e proteja o circuito contra danos causados por sobretensão.
 
 ### Imagem do Circuito no Falstad
 
