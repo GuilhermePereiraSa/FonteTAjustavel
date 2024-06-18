@@ -31,18 +31,6 @@ Algumas questões básicas que serão feitas pelo professor de Eletrônica para 
 | 2.7KΩ        | Diodo Zenner  |
 | 5.3KΩ        | Potenciômetro |
 
-## Explicações do uso dos componentes:
-
-<a name="explicacao_fonte"></a>
-
-#### Fonte
-
-<img src="img/battery9V.png" width="80px" alt="Itaipu2.0">
-
-- A fonte aqui faz simulação de tomada, direto de Itaipu, que ao passar pelo transformador, como tem em alguns postes de luz (só que maior), "reduz" a tensão máxima antes de passar por ele, que é de 180V, para uma nova, mais aceitável e que usamos no resto do circuito.
-
-<a name="explicacao_trans"></a>
-
 ## Explicação de algumas questões básicas: 
 
 <a name="explicacao_bas"></a>
@@ -55,6 +43,20 @@ Algumas questões básicas que serão feitas pelo professor de Eletrônica para 
 
 ### 3ª - Por que o Diodo não queima na Ponte de [Diodos](#explicacao_diodo)?           
 - Por conta do RMS, Root Mean Square, que seria a raiz quadrada do quadrado dos valores dos sinais de voltagem ao quadrado num certo ponto, tendo valores instantâneos, logo, estamos falando de derivada ou integral. Aqui calculamos a raiz quadrada da integral derivando o Ox, como o tempo que o certo valor f(x), que seria a voltagem, teria. Logo, por ser a integral, não importa se dentro de uma raiz quadrada, é a média de f(x), voltagem, assim, temos os picos e vales, já que estamos falando de corrente alternada. E para o diodo este RMS é crucial para sabermos se, caso o pico seja muito alto o tempo de "esfriar" também o será, logo o que importa é o tempo que a voltagem ficará no pico, não sendo igual portanto o tempo que ficará esfriando, assim o queimando.
+
+
+## Explicações do uso dos componentes:
+
+<a name="explicacao_fonte"></a>
+
+#### Fonte
+
+<img src="img/battery9V.png" width="80px" alt="Itaipu2.0">
+
+- A fonte aqui faz simulação de tomada, direto de Itaipu, que ao passar pelo transformador, como tem em alguns postes de luz (só que maior), "reduz" a tensão máxima antes de passar por ele, que é de 180V, para uma nova, mais aceitável e que usamos no resto do circuito.
+
+<a name="explicacao_trans"></a>
+
 
 #### Transformador
 
