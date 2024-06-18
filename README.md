@@ -19,13 +19,17 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | 1             | Transistor      | NPN - bc337 uso geral - até 0,8A| [Explicação do Transistor NPN](#explicacao_transistor_npn) |
 
 
+## Explicações Básicas:
+Algumas questões básicas que serão feitas pelo professor de Eletrônica para Computadores da USP, Eduardo Simões.
+[Explicações](#explicacao_bas)
+
 ### Resistores
 
 | Resistores Ω | Especificação |
 | ------------ | ------------- |
 | 8.2KΩ        | LED           |
 | 2.7KΩ        | Diodo Zenner  |
-| 5.6KΩ        | Potenciômetro |
+| 5.3KΩ        | Potenciômetro |
 
 ## Explicações do uso dos componentes:
 
@@ -39,6 +43,19 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 <a name="explicacao_trans"></a>
 
+## Explicação de algumas questões básicas: 
+
+<a name="explicacao_bas"></a>
+
+### 1ª - Se cada "quarto"/"cômodo", sendo 3 cômodos, tem sua própria fase, portanto é um sistema trifásico (modo de distribuição mais comum de energia elétrica), como podemos justificar a economia (redução do que seria gasto no total) de fios para este número de cômodos?
+- Na úsina, usa-se o sistema trifásico, incorporando três ondas senoidais, defasadas entre si, de forma a tanto "estabilizar" o sistema quanto de torná-lo mais eficiente e (quando chega a casa) é possível de distribuir entre os dois níveis de tensão, já que é um sistema só. Chegando na casa, normalmente tem-se um fio só para as fases que estão passando por ele. Agora, por termos cada fase para cada cômodo, ou uma fase apenas para o cômodo específico, logo a resistência, para "segurar" as fases, se for apenas uma para toda a casa, o fio seria maior, ou vários fios menores para cada quarto com sua própria fase.
+
+### 2ª - Explique a relação entre a "grossura" do fio com a resistência:
+- De acordo com a 2ª lei de Ohm: R = (φ * C)/A, sendo a Área, justamente essa "grossura", assim, a Resistência é proporcionalmente inversa à Área.
+
+### 3ª - Por que o Diodo não queima na Ponte de [Diodos](#explicacao_diodo)?           
+- Por conta do RMS, Root Mean Square, que seria a raiz quadrada do quadrado dos valores dos sinais de voltagem ao quadrado num certo ponto, tendo valores instantâneos, logo, estamos falando de derivada ou integral. Aqui calculamos a raiz quadrada da integral derivando o Ox, como o tempo que o certo valor f(x), que seria a voltagem, teria. Logo, por ser a integral, não importa se dentro de uma raiz quadrada, é a média de f(x), voltagem, assim, temos os picos e vales, já que estamos falando de corrente alternada. E para o diodo este RMS é crucial para sabermos se, caso o pico seja muito alto o tempo de "esfriar" também o será, logo o que importa é o tempo que a voltagem ficará no pico, não sendo igual portanto o tempo que ficará esfriando, assim o queimando.
+
 #### Transformador
 
 <img src="img/transformador.jpg" width="80px">
@@ -47,7 +64,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 <a name="explicacao_diodo"></a>
 
-#### Diodo
+#### Diodo 
 
 <img src="img/diode.png" width="80px">
 
