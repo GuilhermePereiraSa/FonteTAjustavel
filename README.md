@@ -21,7 +21,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 ## Explicações Básicas:
 Algumas questões básicas que serão feitas pelo professor de Eletrônica para Computadores da USP, Eduardo Simões.
-[Explicações](#explicacao_bas)
+[Explicações aqui!](#explicacao_bas)
 
 ### Resistores
 
