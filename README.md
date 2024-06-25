@@ -19,9 +19,6 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | 1             | Transistor      | NPN - bc337 uso geral - até 0,8A| [Explicação do Transistor NPN](#explicacao_transistor_npn) |
 
 
-## Explicações Básicas:
-Algumas questões básicas que serão feitas pelo professor de Eletrônica para Computadores da USP, Eduardo Simões.
-[Explicações aqui!](#explicacao_bas)
 
 ### Resistores
 
@@ -30,19 +27,6 @@ Algumas questões básicas que serão feitas pelo professor de Eletrônica para 
 | 8.2KΩ        | LED           |
 | 2.7KΩ        | Diodo Zenner  |
 | 5.3KΩ        | Potenciômetro |
-
-## Explicação de algumas questões básicas: 
-
-<a name="explicacao_bas"></a>
-
-### 1ª - Se cada "quarto"/"cômodo", sendo 3 cômodos, tem sua própria fase, portanto é um sistema trifásico (modo de distribuição mais comum de energia elétrica), como podemos justificar a economia (redução do que seria gasto no total) de fios para este número de cômodos?
-- Usa-se o sistema trifásico, incorporando três ondas senoidais, defasadas entre si, de forma a tanto "estabilizar" o sistema quanto de torná-lo mais eficiente e (quando chega a casa) é possível de distribuir entre os dois níveis de tensão, já que é um sistema só. Chegando na casa, normalmente tem-se um fio só para a fase para a casa toda. Agora, no sistema trifásico, podemos ter uma fase para cada cômodo específico, logo a corrente que passa pelos fios de cada fase, seria 1/3 do sistema equivalente de uma fase, e por isso os fios seriam mais baratos.
-
-### 2ª - Explique a relação entre a "grossura" do fio com a resistência:
-- De acordo com a 2ª lei de Ohm: R = (φ * C)/A, sendo a Área, justamente essa "grossura", assim, a Resistência é proporcionalmente inversa à Área.
-
-### 3ª - Por que o Diodo não queima na Ponte de [Diodos](#explicacao_diodo)?           
-- Por conta do RMS, Root Mean Square, que seria a raiz quadrada da soma dos quadrados da voltagem num certo ponto, no caso, dividindo pelo número de amostras, tendo valores instantâneos, logo, estamos falando de derivada ou integral. Aqui calculamos a raiz quadrada da integral derivando o Ox, como o tempo que tem certo valor f(x), que seria a voltagem. Logo, por ser a integral, não importa se dentro de uma raiz quadrada, é a média de f(x), ou seja a voltagem. Assim, temos os picos e vales, já que estamos falando de corrente alternada. E para o diodo este RMS é crucial para sabermos se, caso o pico seja muito alto o tempo de "esfriar" também o será. Logo o que importa não é o tempo que a voltagem ficará no pico, mas o valor médio da corrente que passa pelo diodo
 
 
 ## Explicações do uso dos componentes:
