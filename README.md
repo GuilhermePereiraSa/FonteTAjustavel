@@ -9,16 +9,19 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | Nº Componente | Componente      | Especificação                  | Link para explicação detalhada                             |
 | ------------- | --------------- | ------------------------------ | ---------------------------------------------------------- |
 | 1             | Fonte           | Corrente Alternada 2 Terminais | [Explicação da Fonte CA](#explicacao_fonte)                |
-| 1             | Transformador   | 6.979                          | [Explicação do Transformador](#explicacao_trans)           |
-| 5             | Diodo           | 1N4004/1N4001                  | [Explicação do Diodo](#explicacao_diodo)                   |
-| 2             | Capacitor       | 560uF a 680uF com 24.2V        | [Explicação do Capacitor](#explicacao_capacitor)           |
-| 2             | Diodo Zener -12 | 12,7V/13V                      | [Explicação do Diodo Zener](#explicacao_diodo_zener)       |
+| 1             | Transformador   | Razão: 6.979                   | [Explicação do Transformador](#explicacao_trans)           |
+| 4             | Diodo           | 1N4004/1N4001                  | [Explicação do Diodo](#explicacao_diodo)                   |
+| 1             | Capacitor       | 680uF com ≈ 24.2V              | [Explicação do Capacitor](#explicacao_capacitor)           |
+| 1             | Diodo Zener -12 | 12,7V/13V                      | [Explicação do Diodo Zener](#explicacao_diodo_zener)       |
 | 1             | Potenciômetro   | 10k                            | [Explicação do Potenciômetro](#explicacao_potenciometro)   |
 | 4             | Resistores      | De 8.2KΩ à 120Ω                | [Explicação dos Resistores](#explicacao_resistores)        |
-| 3             | LED Vermelho    | 5mm                            | [Explicação do LED Vermelho](#explicacao_led)              |
-| 2             | Transistor      | NPN                            | [Explicação do Transistor NPN](#explicacao_transistor_npn) |
-| 1             | Fusível         | loja                           | [Explicação do Fusível](#explicacao_fusivel)               |
-| 1             | Varistor        | loja                           | [Explicação do Varistor](#explicacao_varistor)             |
+| 1             | LED Vermelho    | 5mm                            | [Explicação do LED Vermelho](#explicacao_led)              |
+| 1             | Transistor      | NPN - bc337 uso geral - até 0,8A| [Explicação do Transistor NPN](#explicacao_transistor_npn) |
+
+
+## Explicações Básicas:
+Algumas questões básicas que serão feitas pelo professor de Eletrônica para Computadores da USP, Eduardo Simões.
+[Explicações aqui!](#explicacao_bas)
 
 ### Resistores
 
@@ -26,7 +29,21 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | ------------ | ------------- |
 | 8.2KΩ        | LED           |
 | 2.7KΩ        | Diodo Zenner  |
-| 5.6KΩ        | Potenciômetro |
+| 5.3KΩ        | Potenciômetro |
+
+## Explicação de algumas questões básicas: 
+
+<a name="explicacao_bas"></a>
+
+### 1ª - Se cada "quarto"/"cômodo", sendo 3 cômodos, tem sua própria fase, portanto é um sistema trifásico (modo de distribuição mais comum de energia elétrica), como podemos justificar a economia (redução do que seria gasto no total) de fios para este número de cômodos?
+- Usa-se o sistema trifásico, incorporando três ondas senoidais, defasadas entre si, de forma a tanto "estabilizar" o sistema quanto de torná-lo mais eficiente e (quando chega a casa) é possível de distribuir entre os dois níveis de tensão, já que é um sistema só. Chegando na casa, normalmente tem-se um fio só para a fase para a casa toda. Agora, no sistema trifásico, podemos ter uma fase para cada cômodo específico, logo a corrente que passa pelos fios de cada fase, seria 1/3 do sistema equivalente de uma fase, e por isso os fios seriam mais baratos.
+
+### 2ª - Explique a relação entre a "grossura" do fio com a resistência:
+- De acordo com a 2ª lei de Ohm: R = (φ * C)/A, sendo a Área, justamente essa "grossura", assim, a Resistência é proporcionalmente inversa à Área.
+
+### 3ª - Por que o Diodo não queima na Ponte de [Diodos](#explicacao_diodo)?           
+- Por conta do RMS, Root Mean Square, que seria a raiz quadrada da soma dos quadrados da voltagem num certo ponto, no caso, dividindo pelo número de amostras, tendo valores instantâneos, logo, estamos falando de derivada ou integral. Aqui calculamos a raiz quadrada da integral derivando o Ox, como o tempo que tem certo valor f(x), que seria a voltagem. Logo, por ser a integral, não importa se dentro de uma raiz quadrada, é a média de f(x), ou seja a voltagem. Assim, temos os picos e vales, já que estamos falando de corrente alternada. E para o diodo este RMS é crucial para sabermos se, caso o pico seja muito alto o tempo de "esfriar" também o será. Logo o que importa não é o tempo que a voltagem ficará no pico, mas o valor médio da corrente que passa pelo diodo
+
 
 ## Explicações do uso dos componentes:
 
@@ -40,6 +57,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 <a name="explicacao_trans"></a>
 
+
 #### Transformador
 
 <img src="img/transformador.jpg" width="80px">
@@ -48,7 +66,7 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 
 <a name="explicacao_diodo"></a>
 
-#### Diodo
+#### Diodo 
 
 <img src="img/diode.png" width="80px">
 
@@ -104,22 +122,6 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 <img src="img/transistorNPN.png" width="80px">
 
 - O transistor NPN aqui serve para a resolução do resistor do Zenner, já que queremos que ao final tenhamos 100mA e conservemos a voltagem "original", porém com 12V no final, sem ter o problema do Zenner-12 se alimentar um pouco desses 12V e não ter a tensão mínima requerida no final, enquanto mantém também esses 100mA. Ele está ali então para regular a corrente, como um duto desta.
-
-<a name="explicacao_fusivel"></a>
-
-#### Fusível
-
-<img src="img/fusivel.jpg" width="80px">
-
-- O fusível é um dispositivo de segurança projetado para proteger o circuito elétrico contra correntes excessivas. Quando a corrente elétrica no circuito excede um certo limite seguro, o fusível se rompe, interrompendo assim o fluxo de corrente.
-
-<a name="explicacao_varistor"></a>
-
-#### Varistor
-
-<img src="img/varistor.jpg" width="80px">
-
-- O varistor é um dispositivo de segurança projetado para proteger outros componentes do circuito contra picos de tensão. Ele possui uma resistência elétrica variável que diminui quando a tensão aplicada aumenta, permitindo que ele desvie a corrente excessiva para o solo e proteja o circuito contra danos causados por sobretensão.
 
 ### Imagem do Circuito no Falstad
 
