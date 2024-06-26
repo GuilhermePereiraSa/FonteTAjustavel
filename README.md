@@ -1,6 +1,10 @@
 
 # Fonte Ajustável
 
+### Especificações do dia de apresentação 26/06/2024 - Grupo 1
+2.23V mínimo à 12.23V
+
+
 ## Descrição
 
 Este é o primeiro trabalho de Eletrônica para Computação, que envolve a criação de uma Fonte de Tensão ajustável entre 3V a 12V com capacidade de 100mA. É burro friendly, então seja bem-vindo 🤓.
@@ -28,6 +32,8 @@ Este é o primeiro trabalho de Eletrônica para Computação, que envolve a cria
 | 8.2KΩ        | LED           |
 | 2.7KΩ        | Diodo Zenner  |
 | 5.3KΩ        | Potenciômetro |
+
+foi utilizado o resistor de 2.7K no dia da apresentação, ficando com a margem dita acima.
 
 
 ## Imagens do Projeto
