@@ -37,6 +37,8 @@ Este é o primeiro trabalho de Eletrônica para Computação, que envolve a cria
 
 ## Explicações do uso dos componentes:
 
+(Veja a explicação em vídeo)[https://youtu.be/Pt6J5xYUrL0?si=UYq0Yr0lrQ63-2Zr]
+
 <a name="explicacao_fonte"></a>
 
 #### Fonte
