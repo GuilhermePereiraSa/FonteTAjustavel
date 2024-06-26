@@ -119,9 +119,6 @@ Este é o primeiro trabalho de Eletrônica para Computação, que envolve a cria
 
 <img src="photosEscreens/circuito.png">
 
-### Imagem SELECIONANDO o fio onde a resistência equivalente seria usado para os calculos.
-<img src="photosEscreens/resistenciaEq.png">
-
 ### Imagens de Cálculos:
 
 <img src="photosEscreens/calculo1.png">
