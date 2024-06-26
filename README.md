@@ -117,7 +117,7 @@ Este é o primeiro trabalho de Eletrônica para Computação, que envolve a cria
 
 ### Imagem do Circuito no Falstad
 
-<img src="photosEscreens/Falstadscreenshot.png">
+<img src="photosEscreens/circuitointeiro.png">
 
 ### Imagens de Cálculos:
 
