@@ -1,3 +1,4 @@
+
 # Fonte Ajustável
 
 ## Descrição
@@ -28,6 +29,11 @@ Este é o primeiro trabalho de Eletrônica Digital, que envolve o projeto de uma
 | 2.7KΩ        | Diodo Zenner  |
 | 5.3KΩ        | Potenciômetro |
 
+
+## Imagens do Projeto
+
+<img src="img/projeto1.jpg">
+<img src="img/projeto2.jpg">
 
 ## Explicações do uso dos componentes:
 
